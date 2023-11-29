@@ -1,4 +1,11 @@
 /* Header */
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.123rf.https://previews.123rf.com/images/in8finity/in8finity1611/in8finity161100060/68887315-auto-piezas-de-repuesto-de-coches-de-fondo-sin-fisuras-ilustraci%C3%B3n-del-vector.jpgcom%2Fphoto_68887315_auto-piezas-de-repuesto-de-coches-de-fondo-sin-fisuras-ilustraci%25C3%25B3n-del-vector.html&psig=AOvVaw2NFDKxISsjLmtVQUn-eMtC&ust=1701357609212000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLishpHB6YIDFQAAAAAdAAAAABAE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
 .img-logo{
     max-width: 100px;
 }
@@ -7,4 +14,11 @@
 }
 .color-ul{
     color: whitesmoke;
+}
+/* Main */
+
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
