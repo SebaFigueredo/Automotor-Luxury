@@ -1,10 +1,7 @@
+/* Inicio */
 /* Header */
 body{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.123rf.https://previews.123rf.com/images/in8finity/in8finity1611/in8finity161100060/68887315-auto-piezas-de-repuesto-de-coches-de-fondo-sin-fisuras-ilustraci%C3%B3n-del-vector.jpgcom%2Fphoto_68887315_auto-piezas-de-repuesto-de-coches-de-fondo-sin-fisuras-ilustraci%25C3%25B3n-del-vector.html&psig=AOvVaw2NFDKxISsjLmtVQUn-eMtC&ust=1701357609212000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLishpHB6YIDFQAAAAAdAAAAABAE);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    
+    background-color: #CBC6C5;
 }
 .img-logo{
     max-width: 100px;
@@ -17,8 +14,45 @@ body{
 }
 /* Main */
 
+main{
+    padding: 0px 10px 0px 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 60px;
+}
+
 .grid-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top: 50px;
+} 
+
+/* MQ Para celular */
+@media screen and (max-width: 650px){
+    .grid-img{
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-template-rows: repeat(1, 1fr) ;
+        
+    }
+    h1{
+        font-size: 40px;
+    }
 }
