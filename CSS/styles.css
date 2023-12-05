@@ -43,7 +43,8 @@ footer{
     font-style: oblique;
     font-family: 'PT Sans Narrow', sans-serif;
     padding-top: 50px;
-} 
+    
+}
 
 /* MQ Para celular */
 @media screen and (max-width: 650px){
@@ -55,4 +56,11 @@ footer{
     h1{
         font-size: 40px;
     }
+}
+
+/* Productos */
+
+.img-productos {
+    max-width: 300px;
+    max-height: 300px;
 }
